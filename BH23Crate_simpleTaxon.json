@@ -46,11 +46,18 @@
       "http://rs.tdwg.org/abcd/terms/hasIdentifiedTaxon": [
         {
           "@type": "Taxon",
-          "scientificName": "Pecari tajacu (Linnaeus, 1758)"
+	  "http://purl.org/dc/terms/conformsTo": {
+              "@id": "https://bioschemas.org/profiles/Taxon/0.7-DRAFT"
+	  },
+	  "sameAs": [
+        "http://doris.ffessm.fr/Especes/Delphinapterus-leucas-Beluga-868",
+        "http://www.marinespecies.org/aphia.php?p=taxdetails&id=137115",
+        "http://www.iucnredlist.org/details/6335"
+	  ],
+          "name": "Pecari tajacu (Linnaeus, 1758)"
         }
       ]
     },
-
     {
       "@id": "https://wildlive.senckenberg.de/api/objects/wildlive/d77cc6895386bebec508",
       "@type": "ImageObject",
