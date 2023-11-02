@@ -49,12 +49,10 @@
 	  "http://purl.org/dc/terms/conformsTo": {
               "@id": "https://bioschemas.org/profiles/Taxon/0.7-DRAFT"
 	  },
-	  "sameAs": [
-        "http://doris.ffessm.fr/Especes/Delphinapterus-leucas-Beluga-868",
-        "http://www.marinespecies.org/aphia.php?p=taxdetails&id=137115",
-        "http://www.iucnredlist.org/details/6335"
+	"sameAs": [
+        "https://www.iucnredlist.org/species/41777/10562361"
 	  ],
-          "name": "Pecari tajacu (Linnaeus, 1758)"
+        "name": "Pecari tajacu (Linnaeus, 1758)"
         }
       ]
     },
