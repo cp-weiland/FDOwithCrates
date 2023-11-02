@@ -1,5 +1,7 @@
 {
-  "@context": "https://w3id.org/ro/crate/1.1/context",
+  "@context": [ "https://w3id.org/ro/crate/1.1/context", {   "dwc": "http://rs.tdwg.org/dwc/terms/",
+            "dwc:vernacularName": { "@container": "@language" }
+                  }],
   "@graph": [
     {
       "@type": "CreativeWork",
@@ -46,16 +48,20 @@
       "http://rs.tdwg.org/abcd/terms/hasIdentifiedTaxon": [
         {
           "@type": "Taxon",
+          "name": "Pecari tajacu (Linnaeus, 1758)",
 	  "http://purl.org/dc/terms/conformsTo": {
-              "@id": "https://bioschemas.org/profiles/Taxon/0.7-DRAFT"
+	    "@id": "https://bioschemas.org/profiles/Taxon/0.7-DRAFT"
 	  },
-	"sameAs": [
-        "https://www.iucnredlist.org/species/41777/10562361"
-	  ],
-        "name": "Pecari tajacu (Linnaeus, 1758)"
-        }
+          "sameAs": [ "https://www.iucnredlist.org/species/41777/10562361" ],
+          "taxonRank": [
+            "http://rs.tdwg.org/ontology/voc/TaxonRank#Species",
+            "http://www.wikidata.org/entity/Q7432",
+            "species"
+        ]
+	  }
       ]
     },
+
     {
       "@id": "https://wildlive.senckenberg.de/api/objects/wildlive/d77cc6895386bebec508",
       "@type": "ImageObject",
