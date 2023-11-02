@@ -1,0 +1,45 @@
+{
+  "@context": [ "https://schema.org", {   "dwc": "http://rs.tdwg.org/dwc/terms/",
+					  "dwc:vernacularName": { "@container": "@language" }}
+              ],
+"@graph": [
+    {
+          "@type": "Taxon",
+          "name": "Pecari tajacu (Linnaeus, 1758)",
+	  "http://purl.org/dc/terms/conformsTo": {
+	    "@id": "https://bioschemas.org/profiles/Taxon/0.7-DRAFT"
+	  },
+        "sameAs": [ "https://www.iucnredlist.org/species/41777/10562361", "https://www.gbif.org/species/2440995" ],
+          "taxonRank": [
+            "http://rs.tdwg.org/ontology/voc/TaxonRank#Species",
+            "http://www.wikidata.org/entity/Q7432",
+            "species"
+          ]
+    }
+    {
+          "@type": "Taxon",
+          "name": "Panthera onca (Linnaeus, 1758)",
+	  "http://purl.org/dc/terms/conformsTo": {
+	    "@id": "https://bioschemas.org/profiles/Taxon/0.7-DRAFT"
+	  },
+        "sameAs": [ "https://www.iucnredlist.org/species/15953/123791436", "https://www.gbif.org/species/5219426" ],
+          "taxonRank": [
+            "http://rs.tdwg.org/ontology/voc/TaxonRank#Species",
+            "http://www.wikidata.org/entity/Q7432",
+            "species"
+          ]
+    },
+    {
+          "@type": "Taxon",
+          "name": "Bos taurus (Linnaeus, 1758)",
+	  "http://purl.org/dc/terms/conformsTo": {
+	    "@id": "https://bioschemas.org/profiles/Taxon/0.7-DRAFT"
+	  },
+        "sameAs": [ "https://www.gbif.org/species/2441022" ],
+          "taxonRank": [
+            "http://rs.tdwg.org/ontology/voc/TaxonRank#Species",
+            "http://www.wikidata.org/entity/Q7432",
+            "species"
+          ]
+    }
+]}
